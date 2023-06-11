@@ -24,7 +24,7 @@ export DEFECTS=u/cslage/calib/13144/defects_20211229
 
 ## Run tasks
 pipetask run \
-        -j 6 \
+        -j 30 \
         -d "instrument='LSSTCam' AND exposure.observation_type='spot' AND detector not in (194, 196, 201, 202, 203, 204) AND exposure.science_program IN ('13228', '13229')" \
         -b ${REPO} \
         -i LSSTCam/calib,LSSTCam/raw/all \
