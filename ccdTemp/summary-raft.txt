@@ -1,0 +1,141 @@
+------------------------------
+R11 Sensors RTD Temp Summary
+Good Sensors [C]
+mean, std: -102.962, 0.473
+
+Bad Sensors
+sensor-name : R11-S02
+Temp. Offset: 1.851
+------------------------------
+
+
+------------------------------
+R12 Sensors RTD Temp Summary
+Good Sensors [C]
+mean, std: -102.883, 0.923
+
+Bad Sensors
+sensor-name : R12-S22
+Temp. Offset: 7.813
+------------------------------
+
+
+------------------------------
+R13 Sensors RTD Temp Summary
+Good Sensors [C]
+mean, std: -103.511, 0.837
+
+Bad Sensors
+sensor-name : R13-S20, R13-S21
+Temp. Offset: 1.709, 3.553
+------------------------------
+
+
+------------------------------
+R14 Sensors RTD Temp Summary
+Good Sensors [C]
+mean, std: -101.872, 0.620
+
+Bad Sensors
+sensor-name : R14-S00, R14-S02, R14-S11, R14-S22
+Temp. Offset: 1.757, 0.939, 1.353, 2.263
+------------------------------
+
+
+------------------------------
+R21 Sensors RTD Temp Summary
+Good Sensors [C]
+mean, std: -102.964, 0.695
+
+Bad Sensors
+sensor-name : R21-S00, R21-S21
+Temp. Offset: 15.424, 11.715
+------------------------------
+
+
+------------------------------
+R22 Sensors RTD Temp Summary
+Good Sensors [C]
+mean, std: -102.655, 0.528
+
+Bad Sensors
+sensor-name : R22-S01, R22-S02
+Temp. Offset: -1.126, -1.837
+------------------------------
+
+
+------------------------------
+R23 Sensors RTD Temp Summary
+Good Sensors [C]
+mean, std: -102.397, 0.673
+
+Bad Sensors
+sensor-name : R23-S00, R23-S01, R23-S21
+Temp. Offset: -1.212, -1.449, -2.062
+------------------------------
+
+
+------------------------------
+R24 Sensors RTD Temp Summary
+Good Sensors [C]
+mean, std: -103.039, 0.914
+
+Bad Sensors
+sensor-name : R24-S22
+Temp. Offset: 3.060
+------------------------------
+
+
+------------------------------
+R30 Sensors RTD Temp Summary
+Good Sensors [C]
+mean, std: -103.285, 0.431
+
+Bad Sensors
+sensor-name : R30-S00, R30-S02, R30-S10
+Temp. Offset: 0.860, 1.460, 0.763
+------------------------------
+
+
+------------------------------
+R31 Sensors RTD Temp Summary
+Good Sensors [C]
+mean, std: -102.969, 0.969
+
+Bad Sensors
+sensor-name : R31-S22
+Temp. Offset: 4.549
+------------------------------
+
+
+------------------------------
+R32 Sensors RTD Temp Summary
+Good Sensors [C]
+mean, std: -102.312, 0.543
+
+Bad Sensors
+sensor-name : R32-S02, R32-S10, R32-S11, R32-S12
+Temp. Offset: -1.132, -1.224, -1.926, -1.899
+------------------------------
+
+
+------------------------------
+R33 Sensors RTD Temp Summary
+Good Sensors [C]
+mean, std: -101.230, 0.701
+
+Bad Sensors
+sensor-name : R33-S11, R33-S22
+Temp. Offset: 4.819, 2.297
+------------------------------
+
+
+------------------------------
+R34 Sensors RTD Temp Summary
+Good Sensors [C]
+mean, std: -102.658, 1.135
+
+Bad Sensors
+sensor-name : R34-S01
+Temp. Offset: 6.219
+------------------------------
