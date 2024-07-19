@@ -1,0 +1,25 @@
+lsst.daf.butler.cli.utils ERROR: Caught an exception, details are in traceback:
+Traceback (most recent call last):
+  File "/cvmfs/sw.lsst.eu/linux-x86_64/lsst_distrib/w_2023_22/conda/envs/lsst-scipipe-6.0.0-exact-ext/share/eups/Linux64/ctrl_mpexec/g019fd7817d+9fd1dffa1d/python/lsst/ctrl/mpexec/cli/cmd/commands.py", line 220, in run
+    if (qgraph := script.qgraph(pipelineObj=pipeline, **kwargs, show=show)) is None:
+  File "/cvmfs/sw.lsst.eu/linux-x86_64/lsst_distrib/w_2023_22/conda/envs/lsst-scipipe-6.0.0-exact-ext/share/eups/Linux64/ctrl_mpexec/g019fd7817d+9fd1dffa1d/python/lsst/ctrl/mpexec/cli/script/qgraph.py", line 196, in qgraph
+    qgraph = f.makeGraph(pipelineObj, args)
+  File "/cvmfs/sw.lsst.eu/linux-x86_64/lsst_distrib/w_2023_22/conda/envs/lsst-scipipe-6.0.0-exact-ext/share/eups/Linux64/ctrl_mpexec/g019fd7817d+9fd1dffa1d/python/lsst/ctrl/mpexec/cmdLineFwk.py", line 614, in makeGraph
+    qgraph = graphBuilder.makeGraph(
+  File "/cvmfs/sw.lsst.eu/linux-x86_64/lsst_distrib/w_2023_22/conda/envs/lsst-scipipe-6.0.0-exact-ext/share/eups/Linux64/pipe_base/gccb5b7ff00+36f166e440/python/lsst/pipe/base/graphBuilder.py", line 1622, in makeGraph
+    scaffolding.resolveDatasetRefs(
+  File "/cvmfs/sw.lsst.eu/linux-x86_64/lsst_distrib/w_2023_22/conda/envs/lsst-scipipe-6.0.0-exact-ext/share/eups/Linux64/pipe_base/gccb5b7ff00+36f166e440/python/lsst/pipe/base/graphBuilder.py", line 1128, in resolveDatasetRefs
+    resolvedRefQueryResults = subset.findDatasets(
+  File "/cvmfs/sw.lsst.eu/linux-x86_64/lsst_distrib/w_2023_22/conda/envs/lsst-scipipe-6.0.0-exact-ext/share/eups/Linux64/daf_butler/g15ae3e578f+46b28f78fd/python/lsst/daf/butler/registry/queries/_results.py", line 266, in findDatasets
+    self._query.find_datasets(parent_dataset_type, collections, find_first=findFirst, defer=True),
+  File "/cvmfs/sw.lsst.eu/linux-x86_64/lsst_distrib/w_2023_22/conda/envs/lsst-scipipe-6.0.0-exact-ext/share/eups/Linux64/daf_butler/g15ae3e578f+46b28f78fd/python/lsst/daf/butler/registry/queries/_query.py", line 649, in find_datasets
+    collection_records = self._backend.resolve_dataset_collections(
+  File "/cvmfs/sw.lsst.eu/linux-x86_64/lsst_distrib/w_2023_22/conda/envs/lsst-scipipe-6.0.0-exact-ext/share/eups/Linux64/daf_butler/g15ae3e578f+46b28f78fd/python/lsst/daf/butler/registry/queries/_query_backend.py", line 373, in resolve_dataset_collections
+    matching_collection_records = self.resolve_collection_wildcard(
+  File "/cvmfs/sw.lsst.eu/linux-x86_64/lsst_distrib/w_2023_22/conda/envs/lsst-scipipe-6.0.0-exact-ext/share/eups/Linux64/daf_butler/g15ae3e578f+46b28f78fd/python/lsst/daf/butler/registry/queries/_sql_query_backend.py", line 92, in resolve_collection_wildcard
+    return self._managers.collections.resolve_wildcard(
+  File "/cvmfs/sw.lsst.eu/linux-x86_64/lsst_distrib/w_2023_22/conda/envs/lsst-scipipe-6.0.0-exact-ext/share/eups/Linux64/daf_butler/g15ae3e578f+46b28f78fd/python/lsst/daf/butler/registry/collections/_base.py", line 498, in resolve_wildcard
+    result.extend(resolve_nested(self.find(name), done))
+  File "/cvmfs/sw.lsst.eu/linux-x86_64/lsst_distrib/w_2023_22/conda/envs/lsst-scipipe-6.0.0-exact-ext/share/eups/Linux64/daf_butler/g15ae3e578f+46b28f78fd/python/lsst/daf/butler/registry/collections/_base.py", line 452, in find
+    raise MissingCollectionError(f"No collection with name '{name}' found.")
+lsst.daf.butler.registry._exceptions.MissingCollectionError: No collection with name 'u/jesteves/2023.06.15/pair32/20230615T231754Z' found.
